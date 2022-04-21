@@ -1,2 +1,1 @@
-# TModeration-Bot-2021-Source-Code
-TModeration Bot 2021 Source Code
+# Welcome to TModeration Bot 2021 source code! Let's read the wiki
