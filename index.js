@@ -12,9 +12,6 @@ try {
   const { 
     Routes
   } = require('discord-api-types/v9');
-  const { 
-    SlashCommandBuilder
-  } = require('@discordjs/builders')
   const request = require("request")
   const { 
     ppid, 
