@@ -20,6 +20,10 @@ const {
   platform
 } = require('process');
 
+process.on('uncaughtException', (err, origin) => {
+  console.log(`Error: ${err}\nOrgin: ${origin}`)
+});
+
 console.log(`The parent process is pid ${ppid}`);
 console.log(`The platform is ${platform}`)
 console.log(process.title)
